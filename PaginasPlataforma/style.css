@@ -1,7 +1,46 @@
 *{
+    width: auto;
     padding: 0;
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+    color: #ff4081;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+h2{
+    color: #009688;
+    font-weight: 700;
+    font-size: 37px;
+}
+
+h3{
+    color: #ff4081;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+h4{
+    color: #009688;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+h5{
+    color: #555;
+    font-size: 27px;
+    font-weight: 400px
+;
+}
+
+p{
+    color: #000;
+    font-size: 17px;
+    font-weight: 300;
 }
 
 a{
@@ -10,18 +49,36 @@ a{
 
 button{
     cursor: pointer;
+    border-radius: 62px;
+    padding: 10px 10px;
 }
 
+.rosa{
+    color: #fff;
+    border-color: #ff4081;
+    background-color: #ff4081;
+}
+
+
+/* CABEÇALHO */
 header{
+    width: 100%;
     background-color: #2E948A;
     box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
     padding: 5px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
 
+header div img{
+    max-width: 244px;
+}
+
 header ul{
+    width: 309px;
+    height: 23px;
     display: flex;
     justify-content: space-around;
 }
@@ -34,12 +91,19 @@ header ul li{
 header ul li a{
     color: #fdfdfd;
 }
+/* FIM DO CABEÇALHO */
 
+
+
+
+/* RODAPÉ */
 footer{
+    width: 100%;
     background-color: #2E948A;
     color: #fff;
     padding: 5px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
@@ -62,7 +126,5 @@ footer div button{
     background-color: #2E948A;
     border-color: #fff;
     color: #fff;
-    padding: 10px 10px;
     margin: 2px;
-    border-radius: 20px 20px 20px 20px;
 }
