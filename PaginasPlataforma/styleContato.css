@@ -1,0 +1,48 @@
+main{
+    padding-left: 136px;
+    padding-right: 163px;
+    padding-top: 82px;
+    padding-bottom: 89px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#contato h1{
+    padding-bottom: 44px;
+}
+
+#contato form div input{
+    width: 496px;
+    height: 32px;
+    border-radius: 7px;
+    margin-bottom: 15px;
+    border-width: thin;
+    border-style: solid;
+    border-color: #686868;
+    color: #58555d;
+    padding-left: 21px;
+}
+
+#contato form div textarea{
+    width: 496px;
+    height: 193px;
+    border-radius: 7px;
+    padding-left: 21px;
+    padding-top: 10px;
+}
+
+#contato form .rosa{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    width: 108px;
+    height: 32px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+}
+
+main div{
+    max-width: 444px;
+}
