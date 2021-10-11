@@ -1,0 +1,180 @@
+*{
+    width: auto;
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    cursor: pointer;
+    border-radius: 62px;
+    padding: 10px 10px;
+}
+
+/* CABEÇALHO */
+header{
+    width: 100%;
+    background-color: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header div img{
+    max-width: 244px;
+}
+
+header ul{
+    width: 309px;
+    height: 23px;
+    display: flex;
+    justify-content: space-around;
+}
+
+header ul li{
+    list-style: none;
+    padding: 10px;
+}
+
+header ul li a{
+    color: #fdfdfd;
+} 
+/* FIM DO CABEÇALHO */
+
+/* CORPO PAGINA CURSO/AULAS */
+.introducao {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 100px 150px;
+    max-width: 929px;
+    max-height: 381px;
+    left: 202px;
+    top: 197px;
+} 
+
+.introducao h1{
+    color: #ff4081;
+    font-weight: 700;
+    font-size: 55px;
+    margin-bottom: 20px;
+    line-height: 63px;
+}
+
+.introducao p{
+    display: flex;
+    align-items: center;
+    max-width: 461px;
+    max-height: 186px;
+    left: 202px;
+    top: 358px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: justify;
+    color: #000000;
+} 
+
+.introducao img{
+    width: 380px;
+    height: 381px;
+    left: 751px;
+}
+
+.aulas{
+    display: grid;
+    grid-template-rows: repeat(4, 261);
+    grid-template-columns: 1050;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px 20px;
+    max-width: 1440px;
+    max-height: 1235px;
+    left: 0px;
+    top: 659px;
+    background-color: rgba(246, 246, 246, 1);
+}
+
+.videoAula{
+    margin-top: 20px;
+    margin: 50px;
+    padding: 0px 0px;
+    grid-column-start: 1;
+    grid-column-end: 3; 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.videoAula h3{
+margin-bottom: 25px;
+padding: 0px 50px;
+max-width: 106px;
+max-height: 40px;
+left: 750px; 
+top: 1146px;
+font-weight: bold;
+font-size: 35px;
+line-height: 40px;
+color: #FF4081;
+}
+.videoAula p{
+max-width: 501px;
+max-height: 195px;
+padding: 0px 50px;
+left: 750px;
+top: 1212px;
+font-weight: 300;
+font-size: 20px;
+line-height: 23px;
+text-align: justify;
+display: flex;
+align-items: center;
+color: #000000;
+}
+
+hr {width: 1244px;height: 3px; background-color: #C4C4C4; margin-bottom: 70px; border: none; margin-left: auto; margin-right: auto;
+
+}
+/* FIM DA PAGINA CURSO/AULAS */
+
+
+/* RODAPÉ */
+footer{
+    width: 100%;
+    background-color: #2E948A;
+    color: #fff;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer ul li{
+    list-style: none;
+    padding: 2px;
+}
+
+footer ul li a{
+    color: #fdfdfd;
+}
+
+footer div{
+    width: 20%;
+}
+
+footer div button{
+    width: 100%;
+    background-color: #2E948A;
+    border-color: #fff;
+    color: #fff;
+    margin: 2px;
+}
