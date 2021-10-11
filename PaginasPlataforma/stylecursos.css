@@ -1,4 +1,4 @@
-
+g
 /* corpo da página cursos */
 
 .Titulo {   
@@ -7,13 +7,11 @@
     align-items: flex-start;
     padding: 80px 80px;
     }
-
-    .Titulo h2{
+    .Titulo h1{
     font-size: 60px;
     margin-bottom: 0px;
     color:#ff4081 
     }
-
     .Titulo p {
     font-size: 20px;
     max-width: 317px;
@@ -22,7 +20,6 @@
     color: #555555;
     text-align: justify;
     }
-    
     #curso1 {
     display: flex;
     justify-content: center;
