@@ -1,63 +1,205 @@
 /* corpo da página cursos*/
 
 .Titulo {   
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 80px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 80px 80px;
+}
+
+.Titulo h1{
+  font-size: 60px;
+  padding-bottom: 0px;
+  color:#ff4081 
+}
+
+.Titulo p {
+  font-size: 20px;
+  max-width: 317px;
+  max-height: 23px;
+  padding-bottom: 0px;
+  color: #555555;
+  text-align: justify;
+}
+
+#curso1 {
+  display: flex;
+  align-items: flex-start;
+  padding-left: 112px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+#curso1 div img{
+  max-width: 380px;
+  padding-bottom: 20px;
+  padding-right: 53px;
+}
+
+#curso1 div p{
+  padding-left: 53px;
+}
+
+#curso2 {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 112px;
+  padding-right: 53px;
+  padding-bottom: 35px;
+}
+
+#curso2 div img{
+  max-width: 380px;
+  padding-bottom: 20px;
+  padding-right: 53px;
+}
+
+#curso2 div p{
+  padding-left: 53px;
+}
+
+#curso3 {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 128px;
+  padding-right: 53px;
+  margin-bottom: 35px;
+}
+
+#curso3 div img{
+  max-width: 380px;
+  padding-bottom: 20px;
+  padding-right: 53px;
+}
+
+#curso3 div p{
+  padding-left: 53px;
+}
+
+.btcomece {
+  border: solid 2px #fff;
+  background-color: rgba(65, 148, 136, 1);
+  color: #fff;
+  cursor: pointer;
+  border-radius: 62px;
+  width: 233px;
+  height: 51px;
+  font-size: 20px;
+  margin-left: 53px;
+}
+
+h2 {
+  font-size: 35px;
+  padding-bottom: 35px;
+  padding-left: 53px;
+  color: #ff4081;
+}
+
+p {
+  font-size: 18px;
+  max-width: 724px;
+  padding-bottom: 35px;
+  color: #555555;
+  text-align: left;
+}
+
+hr {
+  width: 100%;
+  height: 5px; 
+  background-color: #C4C4C4; 
+  margin-bottom: 70px; 
+  border: none; 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+  @media only screen and (max-width: 800px){
+    .Titulo p{
+      padding-left: 0px;
     }
-    .Titulo h1{
-    font-size: 60px;
-    margin-bottom: 0px;
-    color:#ff4081 
+    
+    #curso1{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding-left: 40px;
+      padding-right: 40px;
     }
-    .Titulo p {
-    font-size: 20px;
-    max-width: 317px;
-    max-height: 23px;
-    margin-bottom: 0px;
-    color: #555555;
-    text-align: justify;
-    }
-    #curso1 {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-    align-items: flex-start;
-    padding: 15px 80px;
-    }
-    #curso2 {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 35px;
-    }
-    #curso3 {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 35px;
-    }
-    .btcomece {
-    border: solid 2px #fff;
-    background-color: rgba(65, 148, 136, 1);
-    color: #fff;
-    cursor: pointer;
-    border-radius: 62px;
-    width: 233px;
-    height: 51px;
-    font-size: 20px;
-    }
-    h2 {
-    font-size: 35px;
-    margin-bottom: 35px;
-    color: #ff4081;
-    }
-    p {
-    font-size: 18px;
-    max-width: 724px;
-    margin-bottom: 35px;
-    color: #555555;
-    text-align: justify;
-    }
-    hr {width: 1244px;height: 5px; background-color: #C4C4C4; margin-bottom: 70px; border: none; margin-left: auto; margin-right: auto;
-  }
   
+    #curso1 div img{
+      max-width: 280px;
+      justify-content: center;
+      padding-bottom: 20px;
+      padding-left: 40px;
+      padding-right: 53px;
+    }
+  
+    #curso1 div h2{
+      padding-left: 0px;
+      text-align: center;
+    }
+
+    #curso1 div p{
+      padding-left: 20px;
+      padding-right: 20px;
+      text-align: justify;
+    }
+
+    #curso2{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding-bottom: 50px;
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  
+    #curso2 div img{
+      max-width: 280px;
+      padding-bottom: 20px;
+      padding-left: 40px;
+      padding-right: 53px;
+    }
+  
+    #curso2 div h2{
+      padding-left: 0px;
+      text-align: center;
+    }
+
+    #curso2 div p{
+      padding-left: 20px;
+      padding-right: 20px;
+      text-align: justify;
+    }
+
+    #curso3{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding-bottom: 50px;
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  
+    #curso3 div img{
+      max-width: 280px;
+      padding-bottom: 20px;
+      padding-left: 40px;
+      padding-right: 53px;
+    }
+
+    #curso3 div h2{
+      padding-left: 0px;
+      text-align: center;
+    }
+
+    #curso3 div p{
+      padding-left: 20px;
+      padding-right: 20px;
+      text-align: justify;
+    }
+
+    .btcomece{
+      margin-left: 20px;
+    }
+  }
