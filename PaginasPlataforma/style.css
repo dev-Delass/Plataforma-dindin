@@ -5,26 +5,31 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
+:root{
+    --cor-pink: #ff4081;
+    --cor-green: #009688;
+}
+
 h1{
-    color: #ff4081;
+    color: var(--cor-pink);
     font-weight: 700;
-    font-size: 60px;
+    font-size: 3.75rem;
 }
 
 h2{
-    color: #009688;
+    color: var(--cor-green);;
     font-weight: 700;
     font-size: 37px;
 }
 
 h3{
-    color: #ff4081;
+    color: var(--cor-pink);
     font-weight: 700;
     font-size: 25px;
 }
 
 h4{
-    color: #009688;
+    color: var(--cor-green);;
     font-weight: 700;
     font-size: 20px;
 }
@@ -54,8 +59,8 @@ button{
 
 .rosa{
     color: #fff;
-    border-color: #ff4081;
-    background-color: #ff4081;
+    border-color: var(--cor-pink);
+    background-color: var(--cor-pink);
 }
 
 

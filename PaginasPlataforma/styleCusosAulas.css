@@ -15,49 +15,15 @@ button{
     padding: 10px 10px;
 }
 
-/* CABEÇALHO */
-header{
-    width: 100%;
-    background-color: #2E948A;
-    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
-    padding: 5px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-}
-
-header div img{
-    max-width: 244px;
-}
-
-header ul{
-    width: 309px;
-    height: 23px;
-    display: flex;
-    justify-content: space-around;
-}
-
-header ul li{
-    list-style: none;
-    padding: 10px;
-}
-
-header ul li a{
-    color: #fdfdfd;
-} 
-/* FIM DO CABEÇALHO */
 
 /* CORPO PAGINA CURSO/AULAS */
 .introducao {
     display: flex;
-    justify-content: center;
     align-items: flex-start;
+    flex-wrap: wrap;
     padding: 100px 150px;
-    max-width: 929px;
-    max-height: 381px;
-    left: 202px;
-    top: 197px;
+    margin-top: 197px;
+    justify-content: space-between;
 } 
 
 .introducao h1{
@@ -68,11 +34,12 @@ header ul li a{
     line-height: 63px;
 }
 
-.introducao p{
-    display: flex;
-    align-items: center;
+.texto{
     max-width: 461px;
-    max-height: 186px;
+}
+
+.introducao p{
+
     left: 202px;
     top: 358px;
     font-weight: 300;
@@ -83,39 +50,46 @@ header ul li a{
 } 
 
 .introducao img{
-    width: 380px;
+    /* width: 380px;
     height: 381px;
-    left: 751px;
+    left: 751px; */
 }
 
 .aulas{
-    display: grid;
-    grid-template-rows: repeat(4, 261);
-    grid-template-columns: 1050;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: space-between;
     padding: 20px 20px;
-    max-width: 1440px;
-    max-height: 1235px;
-    left: 0px;
+    max-width: 100%;
     top: 659px;
     background-color: rgba(246, 246, 246, 1);
 }
 
 .videoAula{
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 20px;
     margin: 50px;
     padding: 0px 0px;
     grid-column-start: 1;
     grid-column-end: 3; 
-    display: flex;
     justify-content: center;
     margin-bottom: 35px;
+
+}
+
+.imagem_aula{
+    width: 39%;
+    height: 381px;
+    margin-right: 0%;
+}
+
+
+.texto_aula{
+    max-width: 50.6%;
 }
 
 .videoAula h3{
 margin-bottom: 25px;
-padding: 0px 50px;
+margin-left: 50px;
 max-width: 106px;
 max-height: 40px;
 left: 750px; 
@@ -125,22 +99,20 @@ font-size: 35px;
 line-height: 40px;
 color: #FF4081;
 }
+
 .videoAula p{
-max-width: 501px;
-max-height: 195px;
 padding: 0px 50px;
+margin-bottom: 25px;
 left: 750px;
 top: 1212px;
 font-weight: 300;
 font-size: 20px;
 line-height: 23px;
 text-align: justify;
-display: flex;
-align-items: center;
 color: #000000;
 }
 
-hr {width: 1244px;height: 3px; background-color: #C4C4C4; margin-bottom: 70px; border: none; margin-left: auto; margin-right: auto;
+hr {width: 96%; height: 3px; background-color: #C4C4C4; margin-bottom: 70px; border: none; margin-left: auto; margin-right: auto;
 
 }
 /* FIM DA PAGINA CURSO/AULAS */
@@ -178,3 +150,148 @@ footer div button{
     color: #fff;
     margin: 2px;
 }
+
+header, footer{
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .introducao {
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+    }
+    
+    .texto {
+        width: 54%;
+    }
+
+    .imagem_aula {
+        width: 53.5%;
+    }
+
+    .texto_aula {
+        width: 46.5%;
+    }
+
+}
+
+@media screen and ( max-width: 768px) {
+    .introducao {
+       padding: 0px;
+    } 
+
+    .texto_aula{
+        max-width: 100%;
+        margin-top: 30%;
+    }
+
+    .videoAula p{
+        padding: 0px;
+    }
+
+    .videoAula h3{
+        margin-left: 0px;
+    }
+
+    .imagem{
+        margin-top: 10%;
+    }
+
+    .texto{
+        width: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .imagem_aula{
+        width: 100%;
+        max-height: 225px;
+    }
+
+    .imagem_aula img {
+        width: 100%;
+    }
+
+    .texto_aula {
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width: 425px) {
+
+    .introducao {
+        padding-left: 1rem;
+    }
+
+    .introducao h1 {
+        font-size: 2.5rem;
+    }
+
+    .imagem_aula {
+        max-height: 145px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .imagem img {
+        width: 90%;
+    }
+}
+
+@media screen and ( max-width: 320px) {
+
+    .introducao {
+        margin-left: 0%;
+        margin-top: 20px;
+        padding: 0px;
+    } 
+
+    .texto{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .introducao p {
+        left: 0%;
+    }
+
+    .introducao h1{
+        font-size: 2rem;
+        line-height: 3rem;
+
+    }
+
+    .introducao img{
+        width: 95%;
+        margin-top: 30px;
+    }
+
+    .aulas{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .videoAula{
+        margin-top: 20px;
+        margin: 50px;
+        padding: 0px 0px;
+        
+        display: flex;
+        justify-content: center;
+        margin-bottom: 35px;
+    }
+
+    .imagem_aula{
+        max-height: 150px;
+        
+    }
+
+    .texto_aula {
+        margin-top: 0%;
+    }
+}
+
