@@ -34,6 +34,8 @@
     width: 268px;
 }
 
+
+
 /* SEÇÃO DE CURSOS */
 .cursos{
     background-color: #f6f6f6;
@@ -255,3 +257,48 @@
         text-align: center;
     }
 }
+
+   
+
+/* Tamanho de tela até 320px */
+@media screen and ( max-width: 320px) { 
+    
+    .banner{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .banner .foto1{
+        width: 200px;
+        margin-top: 30px;
+    }
+
+    .cursos{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .depoimentos{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .blog h2{
+        padding-bottom: 73px;
+        padding-left: 0px;
+    }
+    
+    .blog .posts{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .img_post{
+        width: 90%;
+    }
+    .banner h1{
+        font-size: 1.87rem;
+    }
+    
+}
+
