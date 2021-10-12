@@ -151,10 +151,6 @@ footer div button{
     margin: 2px;
 }
 
-header, footer{
-    display: none;
-}
-
 @media screen and (max-width: 1024px) {
     
     .introducao {
