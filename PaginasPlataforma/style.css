@@ -33,8 +33,7 @@ h4{
 h5{
     color: #555;
     font-size: 27px;
-    font-weight: 400px
-;
+    font-weight: 400px;
 }
 
 p{
@@ -91,73 +90,8 @@ header ul li{
 header ul li a{
     color: #fdfdfd;
 }
-/* corpo da página cursos */
 
-.Titulo {   
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 80px 80px;
-}
-.Titulo h2{
-font-size: 60px;
-margin-bottom: 5px;
-color:#ff4081 
-}
-.Titulo p {
-font-size: 20px;
-max-width: 317px;
-max-height: 23px;
-margin-bottom: 0px;
-color: #555555;
-text-align: justify;
-}
-#curso1 {
-display: flex;
-justify-content: center;
-margin-bottom: 50px;
-align-items: flex-start;
-padding: 15px 80px;
-}
-#curso2 {
-display: flex;
-justify-content: center;
-margin-bottom: 35px;
-}
-#curso3 {
-display: flex;
-justify-content: center;
-margin-bottom: 35px;
-}
-.btcomece {
-border: solid 2px #fff;
-background-color: rgba(65, 148, 136, 1);
-color: #fff;
-cursor: pointer;
-border-radius: 62px;
-width: 233px;
-height: 51px;
-font-size: 20px;
-}
-h2 {
-font-size: 35px;
-margin-bottom: 35px;
-color: #ff4081;
-}
-p {
-font-size: 18px;
-max-width: 724px;
-margin-bottom: 35px;
-color: #555555;
-text-align: justify;
-}
-hr {width: 1244px;height: 5px; background-color: #C4C4C4; margin-bottom: 70px; border: none; margin-left: auto; margin-right: auto;
-}
 /* FIM DO CABEÇALHO */
-
-
-
-
 /* RODAPÉ */
 footer{
     width: 100%;
