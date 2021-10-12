@@ -1,3 +1,5 @@
+/* PÁGINA DE CONTATO */
+
 main{
     padding-left: 136px;
     padding-right: 163px;
@@ -10,6 +12,7 @@ main{
 
 #contato h1{
     padding-bottom: 44px;
+    font-size: 40px;
 }
 
 #contato form div input{
@@ -43,6 +46,33 @@ main{
     margin-top: 15px;
 }
 
-main div{
+main div img{
     max-width: 444px;
+}
+
+@media only screen and (max-width: 480px){
+    main{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        justify-content: center;
+    }
+
+    #contato form div input{
+        width: 300px;
+    
+    }
+    
+    #contato form div textarea{
+        width: 300px;
+
+    }
+
+    main div img{
+        max-width: 280px;
+        max-height: 280px;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
 }
