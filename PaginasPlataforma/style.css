@@ -33,7 +33,7 @@ h4{
 h5{
     color: #555;
     font-size: 27px;
-    font-weight: 400px;
+    font-weight: 400;
 }
 
 p{
@@ -49,12 +49,14 @@ a{
 button{
     cursor: pointer;
     border-radius: 62px;
+    border-style: solid;
     padding: 10px 10px;
 }
 
 .rosa{
     color: #fff;
     border-color: #ff4081;
+    border-style: solid;
     background-color: #ff4081;
 }
 
@@ -90,8 +92,8 @@ header ul li{
 header ul li a{
     color: #fdfdfd;
 }
-
 /* FIM DO CABEÇALHO */
+
 /* RODAPÉ */
 footer{
     width: 100%;
@@ -102,6 +104,8 @@ footer{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    padding-top: 53px;
+    padding-bottom: 53px;
 }
 
 footer ul li{
@@ -119,8 +123,27 @@ footer div{
 
 footer div button{
     width: 100%;
+    font-size: 20px;
+    font-weight: 400;
     background-color: #2E948A;
     border-color: #fff;
+    border-style: solid;
     color: #fff;
-    margin: 2px;
+    margin: 6.5px;
+}
+
+@media only screen and (max-width: 400px){
+    footer ul li{
+        padding: 10px
+    }
+    
+    footer div{
+        width: 40%;
+        padding-top: 10px;
+    }
+
+    footer div button{
+        font-size: 20px;
+        font-weight: 300;
+    }
 }
