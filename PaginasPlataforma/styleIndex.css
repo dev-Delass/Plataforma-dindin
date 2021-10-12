@@ -5,14 +5,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: auto;
-    column-gap: 10px; */
-    padding-right: 206px;
-    padding-left: 206px;
-    padding-top: 125px;
-    padding-bottom: 66px;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 8%;
+    padding-left: 12%;
+    padding-right: 12%; 
 }
 
 .banner section{
@@ -148,7 +145,33 @@
     font-weight: 400;
     width: 289px;
 }
+@media screen and (max-width: 1280px) {
+    
+    .banner {
+        padding-right: 8%;
+        padding-left: 8%;
+    }
 
+    .banner img {
+        width: 42%;
+    }
+
+    .depoimentos{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .depoimentos {
+        padding: .5%;
+    }
+   .container {
+       width: 100%;
+   }
+
+}
 
 /* MEDIA QUERIES */
 @media only screen and (max-width: 800px){
@@ -258,7 +281,24 @@
     }
 }
 
-   
+@media screen and (max-width: 768px) {
+
+    .banner img {
+        width: 100%;
+    }
+
+    .cursos {
+        justify-content: space-between;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-bottom: 2%;
+    }
+
+    .cursos article {
+        max-width: 340px;
+    }
+
+}
 
 /* Tamanho de tela até 320px */
 @media screen and ( max-width: 320px) { 
@@ -295,10 +335,19 @@
 
     .img_post{
         width: 90%;
+        padding-bottom: 3%;
     }
     .banner h1{
         font-size: 1.87rem;
     }
+
+    .blog {
+        text-align: center;
+    }
     
+    .blog .posts article {
+        max-width: 100%;
+        padding-left: 1rem;
+    }
 }
 
