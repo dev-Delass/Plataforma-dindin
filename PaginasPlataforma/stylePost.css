@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.post-blogPage{
+    padding-left: 204px;
+    padding-right: 204px;
+    padding-top: 111px;
+}
+
+.post-blogPage .title-blogPage{
+    text-align: center;
+    justify-items: center;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}
+
+.post-blogPage .title-blogPage h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.post-blogPage .title-blogPage .data{
+    color: #9d9d9d;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.post-blogPage .title-blogPage img{
+    max-width: 100%;
+    padding-top: 74px;
+    padding-bottom: 64px;
+}
+
+.post-blogPage .text-blogPage{
+    text-align: left;
+    padding-bottom: 111px;
+}
+
+.post-blogPage .text-blogPage .subtitle-textBlog{
+    font-size: 26px;
+    font-weight: 500;
+    padding-top: 70px;
+}
+
+/* CONHEÇA NOSSOS CURSOS */
+.cursos{
+    background-color: #f6f6f6;
+}
+
+.cursos div h1{
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 74px;
+}
+
+.cursos .nomes-cursos{
+    
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 90px;
+    padding-right: 129px;
+    padding-left: 128px;
+    padding-bottom: 117px;
+}
+
+.cursos .nomes-cursos article{
+    align-items: center;
+    max-width: 344px;
+}
+
+.cursos .nomes-cursos article img{
+    max-height: 270px;
+    padding-top: 19px;
+    padding-bottom: 45px;
+}
+.cursos .nomes-cursos article p{
+    padding-top: 23px;
+    padding-bottom: 26px;
+}
+
+.cursos .nomes-cursos article button{
+    font-size: 20px;
+    font-weight: 400;
+    width: 233px;
+}
+
+@media only screen and (max-width: 800px){
+    .post-blogPage{
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 70px;
+    }
+
+    .post-blogPage .title-blogPage h1{
+        font-size: 30px;
+    }
+
+    .post-blogPage .title-blogPage img{
+        max-width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .post-blogPage .text-blogPage{
+        text-align: justify;
+        padding-bottom: 111px;
+    }
+    
+    .post-blogPage .text-blogPage .subtitle-textBlog{
+        font-size: 23px;
+        padding-top: 60px;
+    }
+
+    .cursos div h1{
+        font-size: 40px;
+    }
+    
+    .cursos .nomes-cursos{
+        
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 40px;
+        padding-right: 40px;
+        padding-left: 40px;
+        padding-bottom: 117px;
+    }
+    
+    .cursos .nomes-cursos article{
+        align-items: center;
+        max-width: 300px;
+        padding: 10px;
+    }
+    
+    .cursos .nomes-cursos article img{
+        max-height: 280px;
+        padding-top: 50px;
+        padding-bottom: 45px;
+    }
+}
