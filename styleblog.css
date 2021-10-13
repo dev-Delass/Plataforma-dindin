@@ -21,7 +21,7 @@
 
 
 .blog {
-    background-color: yellow;
+    
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -48,7 +48,6 @@
 .BlogText {
     display: flexbox;
     display: grid;
-    background-color: coral;
     grid-column: 1/2;
     margin-left: 35%;
     margin-top:5%;
@@ -67,7 +66,6 @@
 }
 
 .container-grid-box {
-    background-color: #E5E5E5;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
     grid-template-rows: 1fr 1fr 1fr;
@@ -77,7 +75,6 @@
 }
 
 .post_container {
-    background-color: tomato;
     display: grid;
     grid-template-rows: repeat(3,1fr);
     grid-template-columns: 1fr 1fr;
