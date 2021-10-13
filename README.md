@@ -18,7 +18,3 @@ Somos o Squard dev.Del@s, mulheres de coragem e inciantes no mundo da tecnologio
 * Monique Rene N Lins de Azevedo
 
 
-
-
-```
-
