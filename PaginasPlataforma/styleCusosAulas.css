@@ -22,7 +22,6 @@ button{
     align-items: flex-start;
     flex-wrap: wrap;
     padding: 100px 150px;
-    margin-top: 197px;
     justify-content: space-between;
 } 
 
@@ -118,39 +117,6 @@ hr {width: 96%; height: 3px; background-color: #C4C4C4; margin-bottom: 70px; bor
 /* FIM DA PAGINA CURSO/AULAS */
 
 
-/* RODAPÉ */
-footer{
-    width: 100%;
-    background-color: #2E948A;
-    color: #fff;
-    padding: 5px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-}
-
-footer ul li{
-    list-style: none;
-    padding: 2px;
-}
-
-footer ul li a{
-    color: #fdfdfd;
-}
-
-footer div{
-    width: 20%;
-}
-
-footer div button{
-    width: 100%;
-    background-color: #2E948A;
-    border-color: #fff;
-    color: #fff;
-    margin: 2px;
-}
-
 @media screen and (max-width: 1024px) {
     
     .introducao {
@@ -196,8 +162,10 @@ footer div button{
 
     .texto{
         width: 100%;
+        margin-top: 10%;
         margin-left: 5%;
         margin-right: 5%;
+    
     }
 
     .imagem_aula{

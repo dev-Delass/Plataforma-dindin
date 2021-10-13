@@ -1,0 +1,65 @@
+.intro-blog {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.texto-blog, .imagem-blog {
+   width: 50%;
+}
+
+.container-blog-post {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 5% 0% 5% 0%;
+    background-color: #E5E5E5;
+}
+
+.publicacao {
+    width: 40%;
+    margin-left: 6.66%; 
+    margin-bottom: 5%;
+}
+
+.box-img {
+    width: 100%;
+}
+
+ .card-img {
+     width: 100%;
+     margin-bottom: 5%;
+ }
+
+.card-title {
+    font-size: 1.87rem;
+    color: rgba(255, 64, 129, 1);
+}
+
+@media screen and (max-width: 768px) {
+
+    .publicacao, .texto-blog, .imagem-blog {
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+
+    .intro-blog {
+        margin-top: 10%;
+    }
+
+    .texto-blog h1 {
+        font-size: 1rem;
+    }
+    .imagem-blog img {
+        width: 90%;
+        margin-top: 10%;
+    }
+
+}
+
+
+
+
+
