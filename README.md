@@ -8,7 +8,7 @@ final do programa Formação pra.elas, promovido pelo Banco BV em parceiria com 
 ## Objetivo da equipe 
 
 Somos o Squard dev.Del@s, mulheres de coragem e inciantes no mundo da tecnologio, nosso objetivo 
-é mostrar a pontencialidade de dos projetos desenvolvidos_por_elas mostrando a força e a garra feminina.
+é mostrar a pontencialidade de todos os projetos desenvolvidos_por_elas mostrando a força e a garra feminina.
         
 ## Contribuidoras
 
