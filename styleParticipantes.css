@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* QUEM SOMOS NÓS */
+
+#quemsomos .dev-delas{
+    padding-top: 70px;
+    padding-left: 128px;
+    padding-right: 128px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+#quemsomos .dev-delas .texto{
+    font-size: 20px;
+    max-width: 60%;
+}
+
+#quemsomos .dev-delas .texto h1{
+    padding-bottom: 40px;
+}
+
+#quemsomos .dev-delas .texto h5{
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+#quemsomos .dev-delas .texto h5 a{
+    color: #555;
+    text-decoration: underline;
+}
+
+#quemsomos .dev-delas div img{
+    max-width: 400px;
+    padding-bottom: 15px;
+}
+
+/* CONHEÇA AS PARTICIPANTES */
+
+#quemsomos .participantes{
+    background-color: #f6f6f6;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 128px;
+    padding-right: 128px;
+}
+
+.participantes h2{
+    padding-bottom: 50px;
+}
+
+.participantes #container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.participantes .pessoa{
+    max-width: 40%;
+    padding: 20px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.participantes .pessoa .foto img{
+    max-width: 104px;
+}
+
+.participantes .pessoa .descriçao{
+    padding-left: 28px;
+}
+
+@media only screen and (max-width: 800px){
+    #quemsomos .dev-delas{
+        padding-left: 70px;
+        padding-right: 70px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
+
+    #quemsomos .dev-delas .texto{
+        max-width: 100%;
+    }
+    
+    #quemsomos .dev-delas .texto h1{
+        font-size: 50px;
+    }
+    
+    #quemsomos .dev-delas div img{
+        max-width: 280px;
+        padding-bottom: 30px;
+    }
+    
+    /* CONHEÇA AS PARTICIPANTES */
+    
+    #quemsomos .participantes{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    
+    .participantes #container{
+        justify-content: center;
+    }
+    
+    .participantes .pessoa{
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .participantes .pessoa .foto img{
+        max-width: 70px;
+    }
+
+    .participantes .pessoa .descriçao{
+        width: 100%;
+        padding-left: 0;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .participantes .pessoa .descriçao h5{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}
