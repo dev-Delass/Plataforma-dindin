@@ -1,0 +1,195 @@
+*{
+    width: auto;
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+    color: #ff4081;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+h2{
+    color: #009688;
+    font-weight: 700;
+    font-size: 37px;
+}
+
+h3{
+    color: #ff4081;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+h4{
+    color: #009688;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+h5{
+    color: #555;
+    font-size: 27px;
+    font-weight: 400;
+}
+
+p{
+    color: #000;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    cursor: pointer;
+    border-radius: 62px;
+    border-style: solid;
+    padding: 10px 10px;
+}
+
+.rosa{
+    color: #fff;
+    border-color: #ff4081;
+    border-style: solid;
+    background-color: #ff4081;
+}
+
+
+/* CABEÇALHO */
+header{
+    width: 100%;
+    background-color: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header div img{
+    max-width: 244px;
+}
+
+header ul{
+    width: 309px;
+    height: 23px;
+    display: flex;
+    justify-content: space-around;
+}
+
+header ul li{
+    list-style: none;
+    padding: 10px;
+}
+
+header ul li a{
+    color: #fdfdfd;
+}
+/* FIM DO CABEÇALHO */
+
+/* RODAPÉ */
+footer{
+    width: 100%;
+    background-color: #2E948A;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+footer ul li{
+    list-style: none;
+    padding: 2px;
+}
+
+footer ul li a{
+    color: #fdfdfd;
+}
+
+footer div{
+    width: 20%;
+}
+
+footer div button{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #2E948A;
+    border-color: #fff;
+    border-style: solid;
+    color: #fff;
+    margin: 6.5px;
+}
+
+@media screen and (max-width: 1280px) {
+    footer div button {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-Width: 1024px) {}
+
+@media screen and (max-width: 768px) {
+    
+    footer div button {
+        font-size: 1rem;
+    }
+
+    footer div {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    header {
+        padding-bottom: 6%;
+    }
+
+    footer ul {
+        width: 100% !important;
+        text-align: center;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+    footer ul li {
+        padding-top: 3;
+        padding-bottom: 3%;
+    }
+
+    footer div {
+        width: 90%;
+    }
+
+    footer div button {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {}
+
+
+@media screen and (max-width: 320px) {
+
+    footer {
+        height: 0%;
+    }
+
+    footer div {
+        width: 90%;
+    }
+
+
+    footer img {
+        width: 90%;
+    }
+}
